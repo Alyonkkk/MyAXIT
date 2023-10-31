@@ -1,0 +1,67 @@
+.download{
+    padding: 90px 0;
+}
+.download__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.download__text_h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+.download__text_p{
+    font-family: 'Raleway', sans-serif;
+    color: #2d3033;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+}
+.download__btn .btn{
+    padding: 15px 82px;
+}
+.download__btn{
+    margin-bottom: 11px;
+}
+@media screen and (max-width: 1220px){
+    .download{
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 705px){
+    .download__text_h3{
+        font-size: 20px;
+    }
+    .download__text_p{
+        font-size: 10px;
+    }
+    .download__btn .btn{
+        padding: 15px 40px;
+    }
+}
+@media screen and (max-width: 705px){
+    .download{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 525px){
+    .download__text_h3{
+        font-size: 15px;
+    }
+    .download__text_p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 525px){
+    .download__text_h3{
+        font-size: 12px;
+    }
+    .download__text_p{
+        font-size: 8px;
+    }
+}

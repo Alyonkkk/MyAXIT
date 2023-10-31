@@ -1,0 +1,56 @@
+@import url(banner.css);
+@import url(features.css);
+@import url(works.css);
+@import url(team.css);
+@import url(testimonials.css);
+@import url(download.css);
+@import url(footer.css);
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+html{
+    height: 100%;
+}
+body{
+    display: block;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.text-style{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c7279;
+}
+.text-h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    background: #e84545;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    background: rgb(130, 9, 9);
+    transition: .8s;
+}

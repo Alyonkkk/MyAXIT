@@ -1,0 +1,116 @@
+.team{
+    padding: 101px 0 ;
+}
+.team__staff{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left:-1px
+}
+.team__staff_person{
+    max-width: 270px;
+}
+.team__staff_text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    color: #2d3033;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.team__staff_text h5{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #e84545;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.team__staff_text p{
+    line-height: 21px;
+    margin-bottom: 26px;
+}
+.team__staff_person img{
+    margin-bottom: 22px;
+}
+.team__staff_media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.team__staff_media img{
+    width: 17px;
+    height: 17px;
+    filter: invert(92%) sepia(0%) saturate(4095%) hue-rotate(189deg) brightness(94%) contrast(79%);
+}
+.team__staff_media a {
+    padding-top: 10px;
+    border: 1px solid #e8ecee;
+    border-radius: 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+.team__staff_media a:hover{
+    background-color: #e84545;
+    transition: .6s;
+}
+@media screen and (max-width: 1290px){
+    .team{
+        padding: 20px 0px;
+    }
+}
+@media screen and (max-width: 1210px){
+    .team__staff{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .team__staff_person{
+        max-width: calc(50% - 10px);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .team__staff_person img{
+        align-items: center;
+    }
+    .team__staff_text{
+        padding: 0 60px;
+    }
+    .team__staff_media{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 690px){
+    .team{
+        padding: 30px 0px;
+    }
+    .team__staff_person {
+        max-width: calc(100% - 10px); /* Single item per row with spacing */
+    }
+    .team__staff_text{
+        padding: 0 120px;
+    }
+    .team__staff_img{
+        width: 220px;
+        height: 220px;
+    }
+    .team__staff_text p{
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .team__staff_text h5{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .team__staff_text{
+        padding: 0 70px;
+    }
+}
+@media screen and (max-width: 450px){
+    .team__staff_text{
+        padding: 0 20px;
+    }
+}
